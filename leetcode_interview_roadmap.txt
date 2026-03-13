@@ -1,0 +1,254 @@
+LEETCODE INTERVIEW ROADMAP Goal: If you can solve these problems within
+the given time limits you will be ready for most technical interviews.
+
+Time Limits Easy: 10 minutes Medium: 20–25 minutes Hard: 30–35 minutes
+
+================================================== 1. ARRAYS & HASHING
+==================================================
+
+Two Sum (Easy) – 10 min https://leetcode.com/problems/two-sum/
+
+Contains Duplicate (Easy) – 10 min
+https://leetcode.com/problems/contains-duplicate/
+
+Valid Anagram (Easy) – 10 min
+https://leetcode.com/problems/valid-anagram/
+
+Group Anagrams (Medium) – 20 min
+https://leetcode.com/problems/group-anagrams/
+
+Top K Frequent Elements (Medium) – 25 min
+https://leetcode.com/problems/top-k-frequent-elements/
+
+Product of Array Except Self (Medium) – 25 min
+https://leetcode.com/problems/product-of-array-except-self/
+
+Longest Consecutive Sequence (Medium) – 25 min
+https://leetcode.com/problems/longest-consecutive-sequence/
+
+Subarray Sum Equals K (Medium) – 25 min
+https://leetcode.com/problems/subarray-sum-equals-k/
+
+Maximum Subarray (Medium) – 20 min
+https://leetcode.com/problems/maximum-subarray/
+
+Maximum Product Subarray (Medium) – 25 min
+https://leetcode.com/problems/maximum-product-subarray/
+
+================================================== 2. TWO POINTERS
+==================================================
+
+Valid Palindrome (Easy) – 10 min
+https://leetcode.com/problems/valid-palindrome/
+
+Two Sum II (Medium) – 15 min
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
+3Sum (Medium) – 25 min https://leetcode.com/problems/3sum/
+
+Container With Most Water (Medium) – 20 min
+https://leetcode.com/problems/container-with-most-water/
+
+Move Zeroes (Easy) – 10 min https://leetcode.com/problems/move-zeroes/
+
+Squares of a Sorted Array (Easy) – 10 min
+https://leetcode.com/problems/squares-of-a-sorted-array/
+
+Trapping Rain Water (Hard) – 35 min
+https://leetcode.com/problems/trapping-rain-water/
+
+================================================== 3. SLIDING WINDOW
+==================================================
+
+Longest Substring Without Repeating Characters (Medium) – 20 min
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+Longest Repeating Character Replacement (Medium) – 25 min
+https://leetcode.com/problems/longest-repeating-character-replacement/
+
+Minimum Window Substring (Hard) – 35 min
+https://leetcode.com/problems/minimum-window-substring/
+
+Permutation in String (Medium) – 20 min
+https://leetcode.com/problems/permutation-in-string/
+
+Find All Anagrams in a String (Medium) – 20 min
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+================================================== 4. STACK
+==================================================
+
+Valid Parentheses (Easy) – 10 min
+https://leetcode.com/problems/valid-parentheses/
+
+Min Stack (Medium) – 20 min https://leetcode.com/problems/min-stack/
+
+Evaluate Reverse Polish Notation (Medium) – 20 min
+https://leetcode.com/problems/evaluate-reverse-polish-notation/
+
+Daily Temperatures (Medium) – 25 min
+https://leetcode.com/problems/daily-temperatures/
+
+Largest Rectangle in Histogram (Hard) – 35 min
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+Car Fleet (Medium) – 20 min https://leetcode.com/problems/car-fleet/
+
+================================================== 5. BINARY SEARCH
+==================================================
+
+Binary Search (Easy) – 10 min
+https://leetcode.com/problems/binary-search/
+
+Search Insert Position (Easy) – 10 min
+https://leetcode.com/problems/search-insert-position/
+
+Search in Rotated Sorted Array (Medium) – 25 min
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+Find Minimum in Rotated Sorted Array (Medium) – 20 min
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+Koko Eating Bananas (Medium) – 25 min
+https://leetcode.com/problems/koko-eating-bananas/
+
+Median of Two Sorted Arrays (Hard) – 35 min
+https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+================================================== 6. LINKED LIST
+==================================================
+
+Reverse Linked List (Easy) – 10 min
+https://leetcode.com/problems/reverse-linked-list/
+
+Merge Two Sorted Lists (Easy) – 10 min
+https://leetcode.com/problems/merge-two-sorted-lists/
+
+Linked List Cycle (Easy) – 10 min
+https://leetcode.com/problems/linked-list-cycle/
+
+Remove Nth Node From End of List (Medium) – 20 min
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+Reorder List (Medium) – 25 min
+https://leetcode.com/problems/reorder-list/
+
+Add Two Numbers (Medium) – 25 min
+https://leetcode.com/problems/add-two-numbers/
+
+Copy List with Random Pointer (Medium) – 25 min
+https://leetcode.com/problems/copy-list-with-random-pointer/
+
+Merge K Sorted Lists (Hard) – 35 min
+https://leetcode.com/problems/merge-k-sorted-lists/
+
+================================================== 7. TREES
+==================================================
+
+Maximum Depth of Binary Tree (Easy) – 10 min
+https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
+Same Tree (Easy) – 10 min https://leetcode.com/problems/same-tree/
+
+Invert Binary Tree (Easy) – 10 min
+https://leetcode.com/problems/invert-binary-tree/
+
+Binary Tree Level Order Traversal (Medium) – 20 min
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+Validate Binary Search Tree (Medium) – 25 min
+https://leetcode.com/problems/validate-binary-search-tree/
+
+Lowest Common Ancestor of BST (Medium) – 20 min
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+Kth Smallest Element in a BST (Medium) – 20 min
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+Diameter of Binary Tree (Easy) – 15 min
+https://leetcode.com/problems/diameter-of-binary-tree/
+
+Binary Tree Right Side View (Medium) – 20 min
+https://leetcode.com/problems/binary-tree-right-side-view/
+
+Serialize and Deserialize Binary Tree (Hard) – 35 min
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+================================================== 8. GRAPHS
+==================================================
+
+Number of Islands (Medium) – 20 min
+https://leetcode.com/problems/number-of-islands/
+
+Clone Graph (Medium) – 25 min https://leetcode.com/problems/clone-graph/
+
+Rotting Oranges (Medium) – 20 min
+https://leetcode.com/problems/rotting-oranges/
+
+Course Schedule (Medium) – 25 min
+https://leetcode.com/problems/course-schedule/
+
+Course Schedule II (Medium) – 25 min
+https://leetcode.com/problems/course-schedule-ii/
+
+Pacific Atlantic Water Flow (Medium) – 30 min
+https://leetcode.com/problems/pacific-atlantic-water-flow/
+
+Network Delay Time (Medium) – 30 min
+https://leetcode.com/problems/network-delay-time/
+
+Word Ladder (Hard) – 35 min https://leetcode.com/problems/word-ladder/
+
+================================================== 9. BACKTRACKING
+==================================================
+
+Subsets (Medium) – 20 min https://leetcode.com/problems/subsets/
+
+Permutations (Medium) – 25 min
+https://leetcode.com/problems/permutations/
+
+Combination Sum (Medium) – 25 min
+https://leetcode.com/problems/combination-sum/
+
+Combination Sum II (Medium) – 25 min
+https://leetcode.com/problems/combination-sum-ii/
+
+Letter Combinations of a Phone Number (Medium) – 20 min
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+Word Search (Medium) – 25 min https://leetcode.com/problems/word-search/
+
+N Queens (Hard) – 35 min https://leetcode.com/problems/n-queens/
+
+================================================== 10. DYNAMIC
+PROGRAMMING ==================================================
+
+Climbing Stairs (Easy) – 10 min
+https://leetcode.com/problems/climbing-stairs/
+
+House Robber (Medium) – 20 min
+https://leetcode.com/problems/house-robber/
+
+House Robber II (Medium) – 25 min
+https://leetcode.com/problems/house-robber-ii/
+
+Coin Change (Medium) – 25 min https://leetcode.com/problems/coin-change/
+
+Longest Increasing Subsequence (Medium) – 30 min
+https://leetcode.com/problems/longest-increasing-subsequence/
+
+Partition Equal Subset Sum (Medium) – 30 min
+https://leetcode.com/problems/partition-equal-subset-sum/
+
+Unique Paths (Medium) – 20 min
+https://leetcode.com/problems/unique-paths/
+
+Decode Ways (Medium) – 25 min https://leetcode.com/problems/decode-ways/
+
+Longest Common Subsequence (Medium) – 30 min
+https://leetcode.com/problems/longest-common-subsequence/
+
+Edit Distance (Hard) – 35 min
+https://leetcode.com/problems/edit-distance/
+
+END OF ROADMAP
