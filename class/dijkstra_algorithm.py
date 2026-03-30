@@ -10,6 +10,7 @@ path from a source vertex to all other vertices in a weighted directed graph.
 import heapq
 from collections import defaultdict
 import math
+import sys
 
 
 class Graph:
@@ -152,12 +153,76 @@ def print_results(graph, source, distances, previous):
             print(f"Vertex {vertex}: Distance = {dist}, Path = {path_str}")
 
 
+def run_interactive_mode():
+    """Run Dijkstra's algorithm in interactive mode."""
+    print("\nInteractive Mode")
+    print("=" * 40)
+    print("Enter edges in format: source destination weight")
+    print("Enter 'done' when finished adding edges")
+    print("Enter 'quit' to exit")
+    
+    graph = Graph()
+    
+    while True:
+        edge_input = input("\nEnter edge (or 'done'/'quit'): ").strip()
+        
+        if edge_input.lower() == 'quit':
+            return
+        
+        if edge_input.lower() == 'done':
+            break
+            
+        try:
+            parts = edge_input.split()
+            if len(parts) != 3:
+                print("Error: Please enter exactly 3 values: source destination weight")
+                continue
+                
+            source, dest = parts[0], parts[1]
+            weight = float(parts[2])
+            
+            graph.add_edge(source, dest, weight)
+            print(f"Added edge: {source} -> {dest} (weight: {weight})")
+            
+        except ValueError as e:
+            print(f"Error: Invalid weight. Please enter a number.")
+        except Exception as e:
+            print(f"Error: {e}")
+    
+    if not graph.vertices:
+        print("No edges added. Exiting.")
+        return
+    
+    print("\nCurrent graph:")
+    print(graph)
+    
+    while True:
+        source = input("\nEnter source vertex (or 'quit'): ").strip()
+        if source.lower() == 'quit':
+            break
+            
+        if source not in graph.vertices:
+            print(f"Error: Vertex '{source}' not in graph. Available vertices: {sorted(graph.vertices)}")
+            continue
+        
+        try:
+            distances, previous = dijkstra(graph, source)
+            print_results(graph, source, distances, previous)
+        except Exception as e:
+            print(f"Error: {e}")
+
+
 def main():
     """
     Main function demonstrating Dijkstra's algorithm with example graphs.
     """
     print("Dijkstra's Shortest Path Algorithm")
     print("=" * 40)
+    
+    # Check for command line arguments
+    if len(sys.argv) > 1 and sys.argv[1] == '--interactive':
+        run_interactive_mode()
+        return
     
     # Example 1: Simple graph
     print("\nExample 1: Simple weighted graph")
@@ -222,6 +287,26 @@ def main():
             print(f"Shortest path from {source_vertex} to {target}: {' -> '.join(path)} (Distance: {distance})")
         else:
             print(f"No path found from {source_vertex} to {target}")
+    
+    # Example 4: Disconnected graph
+    print("\n" + "=" * 60)
+    print("Example 4: Graph with disconnected components")
+    
+    g3 = Graph()
+    # Component 1
+    g3.add_edge('X', 'Y', 3)
+    g3.add_edge('Y', 'Z', 2)
+    # Component 2 (disconnected from component 1)
+    g3.add_edge('P', 'Q', 4)
+    g3.add_edge('Q', 'R', 1)
+    
+    print(g3)
+    distances3, previous3 = dijkstra(g3, 'X')
+    print_results(g3, 'X', distances3, previous3)
+    
+    print("\n" + "=" * 60)
+    print("TIP: Run with --interactive flag for interactive mode:")
+    print("  python dijkstra_algorithm.py --interactive")
 
 
 if __name__ == "__main__":
